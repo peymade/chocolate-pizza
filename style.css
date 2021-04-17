@@ -1,0 +1,148 @@
+h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 13px;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  margin-right: 500px;
+  margin-bottom: 20px;
+}
+
+#mainHeader {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  margin-top: 3px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 13px;
+}
+
+h5 {
+  font-family: 'Peddana', serif;
+  font-size: 30px
+}
+
+p {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: grey;
+}
+
+.divider  {
+  width: 903px;
+  height: 6px;
+  background-color: rgb(222, 223, 222);
+  margin:auto;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+header img {
+  width: 20px;
+  height: 20px;
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+  align-self: right;
+}
+
+#icons {
+  margin-left: 270px;
+}
+
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+#main img {
+  display: block;
+  margin: 30px auto;
+}
+
+#main p {
+  text-indent: 25px;;
+  width: 900px;
+  line-height: 1.5em;
+}
+
+#ingredients {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#ingredients img{
+  position: absolute;
+  margin-top: 30px;
+}
+
+#ingredients #right {
+  line-height: 25px;
+  align-self: flex-end;
+  margin-left: 100px;
+}
+
+#ingredients #left {
+  line-height: 25px;
+  align-self: flex-start;
+}
+
+
+ul {
+  margin-top: 70px;
+  z-index: 100;
+  list-style-type: circle;
+  list-style-position: inside;
+  /* position: absolute; */
+  line-height: 25px;
+  font-size: larger;
+  font-family: Verdana;
+}
+
+#bio {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  width: 900px;
+  margin: auto;
+}
+
+#bio p {
+  align-self: flex-end;
+}
+
+
+button {
+  color:white;
+  background-color: rgb(170, 108, 67);
+  font-family: Verdana;
+  font-size: larger;
+  width: 200px;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.divider:nth-last-child(2){
+  margin-top:200px;
+}
