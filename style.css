@@ -11,13 +11,13 @@ h2 {
 h3 {
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
-  margin-right: 500px;
-  margin-bottom: 20px;
+
 }
 
 #mainHeader {
-  display: flex;
-  justify-content: center;
+  margin-right: 670px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 h4 {
@@ -129,13 +129,18 @@ ul {
   align-self: flex-end;
 }
 
+#bio img {
+  margin-right: 20px;
+}
+
 
 button {
   color:white;
-  background-color: rgb(170, 108, 67);
+  background-color: rgb(194, 129, 85);
   font-family: Verdana;
-  font-size: larger;
-  width: 200px;
+  font-size: 18px;
+  width: 230px;
+  border: none;
 }
 
 footer {
@@ -145,4 +150,5 @@ footer {
 
 .divider:nth-last-child(2){
   margin-top:200px;
+  margin-bottom: 20px;
 }
